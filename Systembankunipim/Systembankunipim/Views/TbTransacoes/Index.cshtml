@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Systembankunipim.Data.TbTransacao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorTransacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarteiraDestino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AgenciaDestino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContaDestino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCarteiraNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoTransacaoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorTransacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarteiraDestino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgenciaDestino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContaDestino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCarteiraNavigation.IdCarteira)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoTransacaoNavigation.DescricaoTransacao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdTransacao">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdTransacao">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdTransacao">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

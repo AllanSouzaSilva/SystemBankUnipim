@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Systembankunipim</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom shadow-lg p-3 mb-5 bg-primary rounded ">
+            <div class="container">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">System bank unipim</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse text-center">
+                    <ul class="navbar-nav flex-grow-1 text-center 2p">
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white btn btn-outline-light mr-2" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn btn-outline-light mr-2" asp-area="" asp-controller="TbInvestimentos" asp-action="Index">Investimento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn btn-outline-light mr-2" asp-area="" asp-controller="TbCarteiras" asp-action="Index">Carteiras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn btn-outline-light mr-2" asp-area="" asp-controller="TbTransacoes" asp-action="Index">Transações</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+
+        <div class="container text-center font-weight-bold">
+            &copy; 2020 - Systembankunipim - <a class="text-primary" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a class="text-primary" asp-controller="TbInvestimentos" asp-action="Index">Investimentos</a>
+            <a class="text-primary" asp-area="" asp-controller="TbCarteiras" asp-action="Index">Carteiras</a>
+            <a class="text-primary" asp-area="" asp-controller="TbTransacoes" asp-action="Index">Transações</a>
+        </div>
+        <img class="img-responsive" src="~/Imagens/Instagram.png" width="50px">
+        <img class="img-responsive" src="~/Imagens/iconfinder_circle-facebook__317752.png" width="80px">
+        <img class="img-responsive" src="~/Imagens/Whatsapp.png width="50px">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
