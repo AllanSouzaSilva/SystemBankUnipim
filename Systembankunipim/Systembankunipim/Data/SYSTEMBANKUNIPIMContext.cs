@@ -104,11 +104,7 @@ namespace Systembankunipim.Data
                     .IsRequired()
                     .HasMaxLength(11)
                     .IsUnicode(false);
-
-                entity.Property(e => e.Usuario)
-                    .IsRequired()
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
+               
             });
 
 
@@ -167,11 +163,7 @@ namespace Systembankunipim.Data
 
                 entity.Property(e => e.IdTipoTransacao).HasColumnName("Id_Tipo_Transacao");
 
-                entity.Property(e => e.DescricaoTransacao)
-                    .IsRequired()
-                    .HasColumnName("Descricao_Transacao")
-                    .HasMaxLength(25)
-                    .IsUnicode(false);
+               
             });
 
             modelBuilder.Entity<TbTransacao>(entity =>

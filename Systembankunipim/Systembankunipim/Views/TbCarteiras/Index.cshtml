@@ -43,9 +43,9 @@
                 @Html.DisplayFor(modelItem => item.DataUltimaTransacao)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCarteira">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdCarteira">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdCarteira">Deletar</a>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.IdCarteira">Editar</a>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdCarteira">Detalhes</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdCarteira">Deletar</a>
             </td>
         </tr>
 }

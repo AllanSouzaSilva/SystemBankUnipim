@@ -23,7 +23,7 @@ namespace Systembankunipim.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Qsomos()
         {
             return View();
         }

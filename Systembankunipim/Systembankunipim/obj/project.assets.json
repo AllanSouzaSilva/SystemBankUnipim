@@ -10217,11 +10217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\PIM-04\\SystemBankUnipim\\Systembankunipim\\Systembankunipim.csproj",
+      "projectUniqueName": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\PIMFINAL\\PIM-04\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
       "projectName": "Systembankunipim",
-      "projectPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\PIM-04\\SystemBankUnipim\\Systembankunipim\\Systembankunipim.csproj",
+      "projectPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\PIMFINAL\\PIM-04\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
       "packagesPath": "C:\\Users\\AllanSouza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\PIM-04\\SystemBankUnipim\\Systembankunipim\\obj\\",
+      "outputPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\PIMFINAL\\PIM-04\\Systembankunipim\\Systembankunipim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AllanSouza\\AppData\\Roaming\\NuGet\\NuGet.Config",

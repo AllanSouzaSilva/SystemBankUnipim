@@ -1,51 +1,57 @@
 ﻿@model Systembankunipim.Data.TbCliente
 
 @{
-    ViewData["Title"] = "Clientes";
+    ViewData["Title"] = "Cliente";
 }
+<hr />
+<div class="text-center">
+    <ul class="nav justify-content-center">
+        <li class="nav-item text-center">
+            <a class="navbar-dark text-dark btn btn-outline-dark mr-2" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-dark text-dark btn btn-outline-dark mr-2" asp-area="" asp-controller="TbInvestimentos" asp-action="Index">Investimento</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-dark text-dark btn btn-outline-dark mr-2" asp-area="" asp-controller="TbCarteiras" asp-action="Index">Carteiras</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-dark text-dark btn btn-outline-dark mr-2" asp-area="" asp-controller="TbTransacoes" asp-action="Index">Transações</a>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-dark text-dark btn btn-outline-dark mr-2" asp-area="" asp-controller="Relatorio" asp-action="Index">Relatorio</a>
+        </li>
+    </ul>
+</div>
+<hr />
+<h1 class=" text-center display-3">Seja bem vindo!</h1>
 
-<h1>@ViewData["Title"]</h1>
+<hr />
 
-<p>
-    <a class="btn btn-primary" asp-action="Create">Criar Novo</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cnpj)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cpf)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-            <tr>
-                <td>
-                    @Model.Nome
-                </td>
-                <td>
-                    @Model.Cnpj
-                </td>
-                <td>
-                    @Model.Cpf
-                </td>
-                <td>
-                    @Model.Email
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@Model.IdCliente">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@Model.IdCliente">Detalhes</a> |
-                    <a asp-action="Delete" asp-route-id="@Model.IdCliente">Deletar</a>
-                </td>
-            </tr>
-    </tbody>
-</table>
+<div class="container">
+    <div>
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <li class="list-group list-group-flush">
+                <li class="list-group-item"><img src="~/Imagens/iconfinder_avatar_1814089.png" /> <p class="font-weight-bold">@Model.Nome</p></li>
+                <li class="list-group-item"><p class="font-weight-bold">@Html.DisplayNameFor(model => model.Nome) :</p> @Model.Nome<p></p> </li>
+                <li class="list-group-item"><p class="font-weight-bold">@Html.DisplayNameFor(model => model.Cpf) :</p> @Model.Cpf</li>
+                <li class="list-group-item"><p class="font-weight-bold">@Html.DisplayNameFor(model => model.Cnpj) :</p> @Model.Cnpj</li>
+                <li class="list-group-item"><p class="font-weight-bold"> @Html.DisplayNameFor(model => model.DtNasc) :</p>  @Model.DtNasc</li>
+                <li class="list-group-item"><p class="font-weight-bold">@Html.DisplayNameFor(model => model.Telefone) </p> :  @Model.Telefone</li>
+                <li class="list-group-item"><p class="font-weight-bold">@Html.DisplayNameFor(model => model.Email) :</p> @Model.Email</li>
+                <li class="list-group-item"><p class="font-weight-bold">@Html.DisplayNameFor(model => model.Senha) :</p> @Model.Senha</li>
+                <li><a class="list-group-item btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Sair</a></li>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="text-center">
+    <td>
+        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.IdCliente">Editar</a>
+        <a class="btn btn-info" asp-action="Details" asp-route-id="@Model.IdCliente">Detalhes</a>
+        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.IdCliente">Deletar</a>
+    </td>
+</div>
+

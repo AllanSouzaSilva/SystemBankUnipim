@@ -77,7 +77,7 @@ namespace Systembankunipim.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdCliente,Nome,Cpf,Cnpj,DtNasc,Telefone,Email,Usuario,Senha")] TbCliente tbCliente)
+        public async Task<IActionResult> Create([Bind("IdCliente,Nome,Cpf,Cnpj,DtNasc,Telefone,Email,Senha")] TbCliente tbCliente)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +109,7 @@ namespace Systembankunipim.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdCliente,Nome,Cpf,Cnpj,DtNasc,Telefone,Email,Usuario,Senha")] TbCliente tbCliente)
+        public async Task<IActionResult> Edit(int id, [Bind("IdCliente,Nome,Cpf,Cnpj,DtNasc,Telefone,Email,Senha")] TbCliente tbCliente)
         {
             if (id != tbCliente.IdCliente)
             {

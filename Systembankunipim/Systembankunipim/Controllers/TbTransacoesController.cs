@@ -17,12 +17,12 @@ namespace Systembankunipim.Controllers
         {
             _context = context;
         }
-
+       
         // GET: TbTransacoes
         public async Task<IActionResult> Index()
         {
-            var sYSTEMBANKUNIPIMContext = _context.TbTransacao.Include(t => t.IdCarteiraNavigation).Include(t => t.IdTipoTransacaoNavigation);
-            return View(await sYSTEMBANKUNIPIMContext.ToListAsync());
+            var transacao = _context.TbTransacao.Include(t => t.IdCarteiraNavigation).Include(t => t.IdTipoTransacaoNavigation);
+            return View(await transacao.ToListAsync());
         }
 
         // GET: TbTransacoes/Details/5
@@ -49,7 +49,7 @@ namespace Systembankunipim.Controllers
         public IActionResult Create()
         {
             ViewData["IdCarteira"] = new SelectList(_context.TbCarteira, "IdCarteira", "IdCarteira");
-            ViewData["IdTipoTransacao"] = new SelectList(_context.TbTipoTransacao, "IdTipoTransacao", "DescricaoTransacao");
+            ViewData["IdTipoTransacao"] = new SelectList(_context.TbTipoTransacao, "IdTipoTransacao");
             return View();
         }
 

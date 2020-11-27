@@ -36,10 +36,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.IdTipoInvestimentoNavigation.DescricaoInvestimento)
             </td>
+           
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdInvestimento">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdInvestimento">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdInvestimento">Deletar</a>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.IdInvestimento">Editar</a>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdInvestimento">Detalhes</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdInvestimento">Deletar</a>
             </td>
         </tr>
 }

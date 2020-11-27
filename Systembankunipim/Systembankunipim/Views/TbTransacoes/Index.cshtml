@@ -51,13 +51,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.IdCarteiraNavigation.IdCarteira)
             </td>
+            
             <td>
-                @Html.DisplayFor(modelItem => item.IdTipoTransacaoNavigation.DescricaoTransacao)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdTransacao">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdTransacao">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdTransacao">Deletar</a>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.IdTransacao">Editar</a>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdTransacao">Detalhes</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdTransacao">Deletar</a>
             </td>
         </tr>
 }

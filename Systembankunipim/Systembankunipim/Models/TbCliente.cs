@@ -16,6 +16,7 @@ namespace Systembankunipim.Data
         public string Cpf { get; set; }
         public string Cnpj { get; set; }
 
+        [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         [Display(Name = "Data de Nascimento")]
         public DateTime DtNasc { get; set; }
@@ -25,7 +26,6 @@ namespace Systembankunipim.Data
         [EmailAddress]
         [Required(ErrorMessage = "Informe o email do usuário", AllowEmptyStrings = false)]
         public string Email { get; set; }
-        public string Usuario { get; set; }
         
         
         [DataType(DataType.Password)]

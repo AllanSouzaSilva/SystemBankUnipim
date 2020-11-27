@@ -11,8 +11,7 @@ namespace Systembankunipim.Data
         }
 
         public int IdTipoTransacao { get; set; }
-        public string DescricaoTransacao { get; set; }
-
+       
         public virtual ICollection<TbTransacao> TbTransacao { get; set; }
     }
 }

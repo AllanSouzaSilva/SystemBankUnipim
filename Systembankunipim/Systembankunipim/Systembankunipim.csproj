@@ -6,12 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\Relatorio.cs" />
     <Compile Remove="Controllers\TbTipoTransacaosController.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Views\Home\Privacy.cshtml" />
     <Content Remove="Views\Login\Logar.cshtml" />
+    <Content Remove="wwwroot\Imagens\user-profile-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
