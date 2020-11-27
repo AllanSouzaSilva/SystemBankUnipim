@@ -1,14 +1,14 @@
 ﻿@model Systembankunipim.Data.TbInvestimento
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Remover Investimento";
 }
 
-<h1>Delete</h1>
+<h1> @ViewData["Title"]</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Tem certeza que deseja deletar ?</h3>
 <div>
-    <h4>TbInvestimento</h4>
+    <h4>Investimentos</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -33,7 +33,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="IdInvestimento" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a class="btn btn-primary" asp-action="Index">Voltar a lista</a>
     </form>
 </div>

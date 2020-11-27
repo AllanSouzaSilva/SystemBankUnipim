@@ -1,13 +1,13 @@
 ﻿@model Systembankunipim.Data.TbCarteira
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
 
-<h1>Details</h1>
+<h1></h1>
 
 <div>
-    <h4>TbCarteira</h4>
+    <h4>@ViewData["Title"]</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -43,6 +43,5 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.IdCarteira">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+    <a asp-action="Edit" asp-route-id="@Model.IdCarteira">Editar</a> |
+    <a class="btn btn-primary" asp-action="Index">Volta para lista!</a>

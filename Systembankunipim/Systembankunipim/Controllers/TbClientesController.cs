@@ -2,26 +2,50 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using Systembankunipim.Bibliotecas.Session;
 using Systembankunipim.Data;
 
+// O Controller precisa ter o mesmo nome da pasta da View
+// Eu fiz a parte de login separada da controlleer cliente 
 namespace Systembankunipim.Controllers
 {
     public class TbClientesController : Controller
     {
         private readonly SYSTEMBANKUNIPIMContext _context;
+        private Session _session;
+        private IHttpContextAccessor _http;
 
-        public TbClientesController(SYSTEMBANKUNIPIMContext context)
+        public TbClientesController(SYSTEMBANKUNIPIMContext context, Session session, IHttpContextAccessor http)
         {
             _context = context;
+            _session = session;
+            _http = http;
         }
 
-        // GET: TbClientes
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.TbCliente.ToListAsync());
+            string getCliente = _session.Consultar("Login"); // Verifica se a sessão existe
+            if (getCliente != null) // Se resultado não for null, faça:
+            {
+                TbCliente cliente = JsonConvert.DeserializeObject<TbCliente>(getCliente); //Descerializa o objeto
+                TbCliente view = _context.TbCliente.Find(cliente.IdCliente); // Pega os dados do cliente no banco e armazena na variável como objeto
+                return View(view); // Retorna o objeto para a View
+            }
+            else // Se for null, redireciona para página de login
+            {
+                return RedirectToAction("Index","Login");
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Cliente(int id)
+        {
+            return View();
         }
 
         // GET: TbClientes/Details/5

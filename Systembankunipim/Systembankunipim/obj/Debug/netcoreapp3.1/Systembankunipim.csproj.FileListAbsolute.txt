@@ -45,7 +45,6 @@ C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Systembankunipim.TagHelpers.output.cache
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Systembankunipim.RazorCoreGenerate.cache
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -551,3 +550,6 @@ C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\TbInvestimentos\Details.cshtml.g.cs
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\TbInvestimentos\Edit.cshtml.g.cs
 C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\Systembankunipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\TbInvestimentos\Index.cshtml.g.cs
+C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\SystemBankUnipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\SystemBankUnipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Relatorio\Relatorio.cshtml.g.cs
+C:\Users\AllanSouza\OneDrive\Documentos\PIM-04\SystemBankUnipim\Systembankunipim\obj\Debug\netcoreapp3.1\Razor\Views\Home\Qsomos.cshtml.g.cs

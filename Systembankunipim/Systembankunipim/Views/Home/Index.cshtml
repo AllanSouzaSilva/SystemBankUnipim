@@ -1,32 +1,47 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home";
 }
-<div style="background-image:url(~/wwwroot/Imagens/bit.jpg)">
+<style src="text/css">
+</style>
+<hr />
+<div class="container">
+    
+    <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border bg-light">
+            <div class="rounded float-left">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/Imagens/bit.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Bitcoin</h5>
+                        <p class="card-text">
+                            Bitcoin é uma criptomoeda descentralizada ou um dinheiro eletrônico para transações ponto-a-ponto (peer-to-peer electronic cash system) apresentada em 2007, na lista de discussão The Cryptography Mailing por um programador ou grupo de programadores sob o pseudônimo Satoshi Nakamoto, é considerada a primeira moeda digital mundial descentralizada, constituindo um sistema econômico alternativo (peer-to-peer electronic cash system),
+                            e responsável pelo ressurgimento do sistema bancário livre.
+                        </p>
+                        <a href="https://pt.wikipedia.org/wiki/Bitcoin#:~:text=Bitcoin%20%28s%C3%ADmbolo%3A%20%E2%82%BF%3B%20abrev%20ISO%204217%3A%20BTC%20ou,e%20respons%C3%A1vel%20pelo%20ressurgimento%20do%20sistema%20banc%C3%A1rio%20livre." class="btn btn-lg btn-custom btn-primary">
+                            Vamos lá!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col py-5 px-lg-5">
 
-    <h4 class="font-italic text-center">System bank Unipim</h4>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/Imagens/bit.jpg" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary">Visitar</a>
+            <p class="rounded card-text" style="background-color:darkgray">
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus auctor sem.
+                Quisque aliquam metus nec diam lacinia, non ornare ligula tincidunt. Mauris vulputate, quam quis tristique placerat, nibh urna lobortis metus, nec posuere dui risus vel lorem.
+                Quisque turpis sapien, venenatis a nisl ac, posuere pharetra mi. Mauris scelerisque blandit viverra. Pellentesque consequat eu neque vitae auctor. Suspendisse vehicula ligula sed tortor pretium ullamcorper.
+                Aliquam id elementum dolor. Donec iaculis lectus nulla, eget mollis purus porta ut. Aenean eleifend nunc sit amet sapien maximus tempus.
+                Maecenas mauris purus, pretium in ullamcorper a, ultrices ac lectus. Duis vitae libero pulvinar, pharetra felis et, dictum felis.
+                Donec molestie, lectus eu tempor ultrices, odio odio tincidunt mi, et vehicula nulla purus non est. Fusce accumsan mollis est, eu rutrum felis dapibus ut. Etiam non cursus enim. Nunc sodales accumsan sem, eget condimentum leo bibendum et. Proin quis neque convallis, pharetra libero non, molestie eros. Vestibulum iaculis ipsum ut iaculis dictum. Mauris sodales eros vel erat maximus egestas.
+                Pellentesque eleifend, nunc non interdum fringilla, nunc lorem ultricies ligula, id sollicitudin urna felis nec enim.
+                Integer purus sapien, facilisis ac est quis, lacinia dapibus dui.
+            </p>
         </div>
     </div>
-        <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">Email</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Salvar senha?</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Vamos lá!</button>
-            <button type="submit" class="btn btn-primary">Cadastra-se!</button>
-        </form>
-    </div>
+</div>
+
+
+
+

@@ -1,0 +1,32 @@
+﻿@model Systembankunipim.Data.TbCliente
+
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style type="text/css">
+</style>
+<h3>@ViewData["Title"]</h3>
+<div class="container">
+    @if (ViewData["MSG_E"] != null)
+    {
+        <p class="alert alert-danger">@Html.Raw(ViewData["MSG_E"])</p>
+    }
+    <form method="post">
+        <div class="form-group">
+            <label>Email:</label>
+            <input asp-for="Email" class="form-control" placeholder="Insira seu email" type="email" />
+        </div>
+        <div class="form-group">
+            <label>Digite sua senha:</label>
+            <input asp-for="Senha" class="form-control" placeholder="*******" type="password" />
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Acessar</button>
+        </div>
+
+    </form>
+</div>
+
+

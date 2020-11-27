@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Systembankunipim.Data.TbCarteira>
+
+@{
+    ViewData["Title"] = "Relatório";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Criar Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SaldoCarteira)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UltimoDeposito)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UltimoSaque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataUltimaTransacao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SaldoCarteira)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UltimoDeposito)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UltimoSaque)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataUltimaTransacao)
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

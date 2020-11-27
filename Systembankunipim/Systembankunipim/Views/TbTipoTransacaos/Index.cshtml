@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Systembankunipim.Data.TbTipoTransacao>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Transações";
 }
 
-<h1>Index</h1>
+<h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Nova Transações</a>
 </p>
 <table class="table">
     <thead>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.DescricaoTransacao)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdTipoTransacao">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdTipoTransacao">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdTipoTransacao">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.IdTipoTransacao">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdTipoTransacao">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdTipoTransacao">Deletar</a>
             </td>
         </tr>
 }

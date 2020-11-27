@@ -1,6 +1,5 @@
-﻿using System;
+﻿
 using Microsoft.EntityFrameworkCore;
-
 
 namespace Systembankunipim.Data
 {
@@ -9,12 +8,10 @@ namespace Systembankunipim.Data
         public SYSTEMBANKUNIPIMContext()
         {
         }
-
         public SYSTEMBANKUNIPIMContext(DbContextOptions<SYSTEMBANKUNIPIMContext> options)
             : base(options)
         {
         }
-
         public virtual DbSet<TbCarteira> TbCarteira { get; set; }
         public virtual DbSet<TbCliente> TbCliente { get; set; }
         public virtual DbSet<TbInvestimento> TbInvestimento { get; set; }
@@ -29,6 +26,7 @@ namespace Systembankunipim.Data
                 optionsBuilder.UseSqlServer("Data Source=DESKTOP-LTL89HV;Initial Catalog=SYSTEMBANKUNIPIM;Integrated Security=True");
             }
         }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -101,6 +99,7 @@ namespace Systembankunipim.Data
                     .IsRequired()
                     .IsUnicode(false);
 
+
                 entity.Property(e => e.Telefone)
                     .IsRequired()
                     .HasMaxLength(11)
@@ -111,6 +110,7 @@ namespace Systembankunipim.Data
                     .HasMaxLength(20)
                     .IsUnicode(false);
             });
+
 
             modelBuilder.Entity<TbInvestimento>(entity =>
             {
@@ -208,6 +208,7 @@ namespace Systembankunipim.Data
                     .HasForeignKey(d => d.IdTipoTransacao)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Id_Tipo_Transacao");
+
             });
 
             OnModelCreatingPartial(modelBuilder);
