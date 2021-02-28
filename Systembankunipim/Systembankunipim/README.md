@@ -23,7 +23,7 @@
 <!-- gifs -->
 <h4 align="center">
   <p>Asp .net (Web)</p>
-  <img width="100%" alt="demostração do projeto" title="WebDemonstration" src="./github/web.gif">
+  <img src="printsprojeto/home.JPG" width="100%" alt="pagina home" title="demonstracao">
   
 
 ---
@@ -73,7 +73,7 @@ Estas são as principais ferramentas utilizadas na construção do projeto:
 
 ## 🚀 Executando o projeto
 
-Antes de qualquer coisa, você precisa ter o [Git](https://git-scm.com), o [Yarn](https://yarnpkg.com/) e o [Node.js](https://nodejs.org/en/) instalado na sua máquina. Feito isso, você pode prosseguir.
+Antes de qualquer coisa, você precisa ter o [Git](https://git-scm.com), o [Sql Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) e o [visual studio](https://visualstudio.microsoft.com/pt-br/downloads/) instalado na sua máquina. Feito isso, você pode prosseguir.
 
 ```bash
 # Clone este repositório:
