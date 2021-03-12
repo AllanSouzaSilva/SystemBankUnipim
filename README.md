@@ -117,5 +117,5 @@ Além do que foi pedido, adicionei animações para deixar a aplicação mais ag
 
 ## 🚀 Entre em contato!
 ---
-Desenvolvido por [Henrique Balardin](https://www.linkedin.com/in/hbalardin).
+Desenvolvido por [Allan Souza](https://www.linkedin.com/in/allan-souza-silva-794164146/).
 
