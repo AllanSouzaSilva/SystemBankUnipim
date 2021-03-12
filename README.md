@@ -115,9 +115,9 @@ Caso a página não abrir automaticamente, acesse: http://localhost:44356
 Além do que foi pedido, adicionei animações para deixar a aplicação mais agradável e fluida, e também uma página exclusiva para tratativa de erros.
 
 ## 📋 Licença
-Esse repositório está sob a licença [MIT](https://github.com/AllanSouzaSiva/SystemBankUnipim/blob/main/LICENSE.md).
+
 
 
 ## 🚀 Entre em contato!
 
-Desenvolvido por [Allan Souza Silva](https://www.linkedin.com/in/allan-souza-silva-794164146/).
+Desenvolvido por [![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
