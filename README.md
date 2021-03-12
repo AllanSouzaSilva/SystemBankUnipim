@@ -33,21 +33,21 @@
 <h4 align="center">
   <p>Asp net web</p>
   
-  <img width="100%" alt="Webhome" title="Webhome" src="~/printsprojeto/home.JPG">
-  <p>Mobile</p>
-  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="~/printsprojeto/indexCliente.JPG">
+  <img width="100%" alt="Webhome" title="Webhome" src="../../printsprojeto/home.JPG">
+  <p>Tela cliente</p>
+  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="../../printsprojeto/indexCliente.JPG">
 </h4>
 
 ---
 
 ## 📄 Sobre
-
+O projeto consite em um sistema web baseado no crud, foi um projeto na onde tinha o objetivo de criar um sistema de gerenciamento para uma empresa superficila que trabalhava com o bitcoin. O sitema tem o objeto de criar, ler, atualizar e deletar os documentos e relatórios cadastrados, com isso  cada cliente tem um login de acesso na onde ele mesmo conseguiria gerenciar a sua conta de forma livre, a empresa superficial cujo o nome é SystemBankUnipim solicitou que cria-se um sistema desktop para gerenciar os clientes cadastrado no web. Esse projeto foi desenvolvido no nivel universitário que teria que ser entregue para completar a grade curricular e conclui-se o ensino superior. 
 
 ---
 
 ## 🔝 Requisitos
 
-✅ -
+✅ - 
 
 ✅ -
 
