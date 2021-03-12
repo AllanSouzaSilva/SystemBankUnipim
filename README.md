@@ -115,5 +115,9 @@ Além do que foi pedido, adicionei animações para deixar a aplicação mais ag
 ## 📋 Licença
 
 ## 🚀 Entre em contato!
+<p>
 
 [![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
+
+[![social](https://img.shields.io/badge/Curriculum--red?style=for-the-badge)](https://allansouzasilva.github.io/curriculum/)
+</p>
