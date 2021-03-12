@@ -106,14 +106,16 @@ troque a string de conexão.
 Ex:"Data Source=Seuservido;Initial Catalog=SYSTEMBANKUNIPIM;Integrated Security=True"
 
 # Execute a aplicação em modo de desenvolvimento:
+```
 Caso a página não abrir automaticamente, acesse: http://localhost:44356
-
-### 🚀 Milha Extra
 ---
+### 🚀 Milha Extra
+
 Além do que foi pedido, adicionei animações para deixar a aplicação mais agradável e fluida, e também uma página exclusiva para tratativa de erros.
 
 ## 📋 Licença
 
 ## 🚀 Entre em contato!
-```
+
 <a href="https://www.linkedin.com/in/AllanSouzaSilva/">
+---
