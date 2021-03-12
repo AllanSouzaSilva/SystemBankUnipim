@@ -9,11 +9,11 @@
 <!-- badges -->
 <p align="center">
   <img src="https://img.shields.io/github/languages/count/AllanSouzaSilva/SystembankUnipim?color=431d7c">
-  <img src="https://img.shields.io/github/repo-size/AllanSouzaSilva/SystembankUnipim?color=F62E76"/>
+  <img src="https://img.shields.io/github/repo-size/AllanSouzaSilva/SystembankUnipim?color=F62E76">
   <a href="https://www.linkedin.com/in/AllanSouzaSilva/">
     <img src="https://img.shields.io/badge/made%20by-Allan%20Souza-431d7c">
   </a>
-  <img src="https://img.shields.io/github/last-commit/AllanSouzaSilva/SystembankUnipim?color=F62E76"/>
+  <img src="https://img.shields.io/github/last-commit/AllanSouzaSilva/SystembankUnipim?color=F62E76">
   <img alt="GitHub license" src="https://img.shields.io/github/license/AllanSouzaSilva/SystembankUnipim?color=431d7c">
 </p>
 
@@ -115,7 +115,5 @@ Além do que foi pedido, adicionei animações para deixar a aplicação mais ag
 ## 📋 Licença
 
 ## 🚀 Entre em contato!
----
-[![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
-
-[![social](https://img.shields.io/badge/Curriculum--red?style=for-the-badge)](https://allansouzasilva.github.io/curriculum/)
+```
+<a href="https://www.linkedin.com/in/AllanSouzaSilva/">
