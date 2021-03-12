@@ -29,11 +29,14 @@
 
 ---
 
-<!-- gifs -->
+<!-- imagens-->
 <h4 align="center">
-  <p>Asp .net (Web)</p>
-  <img src="printsprojeto/home.JPG" width="100%" alt="pagina home" title="demonstracao">
+  <p>Asp net web</p>
   
+  <img width="100%" alt="WebDemonstration" title="WebDemonstration" src="../printsprojeto/home.JPG">
+  <p>Mobile</p>
+  <img width="25%" alt="MobileDemonstration" title="MobileDemonstration" src="../printsprojeto/indexCliente.JPG">
+</h4>
 
 ---
 
