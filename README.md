@@ -102,21 +102,22 @@ atualize o banco e o identifique-o
 SystemBankUnipim/SystemaBankUnipim
 Clique no arquivo Systembankunipim
 Abra solution no visual studio communit 2019
-No arquivo do proejo chamado appsettings.json
+No arquivo do projeto chamado appsettings.json
 troque a string de conexão. 
 
 Ex:"Data Source=Seuservido;Initial Catalog=SYSTEMBANKUNIPIM;Integrated Security=True"
 
 # Execute a aplicação em modo de desenvolvimento:
-
-
 Caso a página não abrir automaticamente, acesse: http://localhost:44356
 
+### 🚀 Milha Extra
 ---
+Além do que foi pedido, adicionei animações para deixar a aplicação mais agradável e fluida, e também uma página exclusiva para tratativa de erros.
 
 ## 📋 Licença
-Todos direitos reservados!
+Esse repositório está sob a licença [MIT](https://github.com/AllanSouzaSiva/SystemBankUnipim/blob/main/LICENSE.md).
+
 
 ## 🚀 Entre em contato!
 
-Desenvolvido por [Allan Souza](https://www.linkedin.com/in/allan-souza-silva-794164146/).
+Desenvolvido por [Allan Souza Silva](https://www.linkedin.com/in/allan-souza-silva-794164146/).
