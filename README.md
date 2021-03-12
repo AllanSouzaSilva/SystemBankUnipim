@@ -17,7 +17,6 @@
   <img alt="GitHub license" src="https://img.shields.io/github/license/AllanSouzaSilva/SystembankUnipim?color=431d7c">
 </p>
 
-
 <!-- index -->
 <p align="center">
   <a href="#-sobre">Sobre</a> •
@@ -28,14 +27,13 @@
 </p>
 
 ---
-
 <!-- imagens-->
 <h4 align="center">
   <p>Asp net web</p>
   
-  <img width="100%" alt="Webhome" title="Webhome" src="/../printsprojeto/home.JPG">
+  <img width="100%" alt="Webhome" title="Webhome" src="../printsprojeto/home.JPG">
   <p>Tela cliente</p>
-  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="/../printsprojeto/indexCliente.JPG">
+  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="../printsprojeto/indexCliente.JPG">
 </h4>
 
 ---
@@ -116,8 +114,6 @@ Além do que foi pedido, adicionei animações para deixar a aplicação mais ag
 
 ## 📋 Licença
 
-
-
 ## 🚀 Entre em contato!
 
-Desenvolvido por [![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
+[![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
