@@ -33,9 +33,9 @@
 <h4 align="center">
   <p>Asp net web</p>
   
-  <img width="100%" alt="Webhome" title="Webhome" src="../../printsprojeto/home.JPG">
+  <img width="100%" alt="Webhome" title="Webhome" src="/../printsprojeto/home.JPG">
   <p>Tela cliente</p>
-  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="../../printsprojeto/indexCliente.JPG">
+  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="/../printsprojeto/indexCliente.JPG">
 </h4>
 
 ---
@@ -88,12 +88,24 @@ Antes de qualquer coisa, você precisa ter o [Git](https://git-scm.com), o [Sql 
 
 ```bash
 # Clone este repositório:
-$ git clone 
+$ git clone linkdoprojeto
+
+# Anexar o banco de dados:
+
+o banco de dados se encontra na pasta banco de dados do projeto
+Arquivo chamado SYSTEMBANKUNIPIM.mdf
+Anexe o banco de dados no seu sql server antes.
+atualize o banco e o identifique-o 
 
 # Acesse à pasta do projeto:
-cd 
 
+SystemBankUnipim/SystemaBankUnipim
+Clique no arquivo Systembankunipim
+Abra solution no visual studio communit 2019
+No arquivo do proejo chamado appsettings.json
+troque a string de conexão. 
 
+Ex:"Data Source=Seuservido;Initial Catalog=SYSTEMBANKUNIPIM;Integrated Security=True"
 
 # Execute a aplicação em modo de desenvolvimento:
 
@@ -103,9 +115,8 @@ Caso a página não abrir automaticamente, acesse: http://localhost:44356
 ---
 
 ## 📋 Licença
-
----
+Todos direitos reservados!
 
 ## 🚀 Entre em contato!
 
-Desenvolvido por [Henrique Balardin](https://www.linkedin.com/in/allan-souza-silva-794164146/).
+Desenvolvido por [Allan Souza](https://www.linkedin.com/in/allan-souza-silva-794164146/).
