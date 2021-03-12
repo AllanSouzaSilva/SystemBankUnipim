@@ -116,6 +116,6 @@ Além do que foi pedido, adicionei animações para deixar a aplicação mais ag
 ## 📋 Licença
 
 ## 🚀 Entre em contato!
+---
 
 <a href="https://www.linkedin.com/in/AllanSouzaSilva/">
----
