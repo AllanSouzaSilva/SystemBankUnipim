@@ -45,23 +45,32 @@ O projeto consite em um sistema web baseado no crud, foi um projeto na onde tinh
 
 ## 🔝 Requisitos
 
-✅ - 
+✅ - O software contém uma interface moderna, com muitas informações que para um 
+usuário inexperiente, podendo ficar perdido com tanta informação por tela.
 
-✅ -
+✅ - plataforma Web responsivo sejam 
+autentificados para não haver golpes e fraudes na 
+plataforma.
 
-✅-
+✅-  os usuários de ambas 
+plataformas tenham login e senha que apenas estes 
+possam acessar para manter a segurança de dados.
 
-✅ -
 
-✅ -
+✅ - Sendo um software de 
+gerenciamento e administração de investimentos em 
+criptoativos, contendo gráficos para análise de lucros, 
+geração de relatórios diários e mensais.
 
-✅ -
+✅ - A empresa exige que os softwares sejam aderentes a 
+LGPD (Lei geral de proteção de dados).
 
-✅ -
+✅ -A empresa exige que os softwares sejam aderentes a 
+LGPD (Lei geral de proteção de dados).
 
-✅ -
+✅ - A empresa necessita que a implementação seja feita na 
+linguagem de programação C#.
 
-✅ -
 
 ---
 
