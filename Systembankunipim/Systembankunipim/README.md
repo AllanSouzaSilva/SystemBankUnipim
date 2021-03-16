@@ -31,9 +31,9 @@
 <h4 align="center">
   <p>Asp net web</p>
   
-  <img width="100%" alt="Webhome" title="Webhome" src="printsprojeto/home.JPG">
+  <img width="50%" alt="Webhome" title="Webhome" src="printsprojeto/home.JPG">
   <p>Tela cliente</p>
-  <img width="25%" alt="WebIndexCliente" title="WebIndexCliente" src="printsprojeto/indexCliente.JPG">
+  <img width="50%" alt="WebIndexCliente" title="WebIndexCliente" src="printsprojeto/indexCliente.JPG">
 </h4>
 
 ---
