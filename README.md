@@ -31,9 +31,9 @@
 <h4 align="center">
   <p>Asp net web</p>
   
-  <img width="50%" alt="Webhome" title="Webhome" src="printsprojeto/home.JPG">
+  <img width="50%" alt="Webhome" title="Webhome" src="https://github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/Systembankunipim/Systembankunipim/printsprojeto/home.JPG">
   <p>Tela cliente</p>
-  <img width="50%" alt="WebIndexCliente" title="WebIndexCliente" src="printsprojeto/indexCliente.JPG">
+  <img width="50%" alt="WebIndexCliente" title="WebIndexCliente" src="https://github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/Systembankunipim/Systembankunipim/printsprojeto/indexCliente.JPG">
 </h4>
 
 ---
