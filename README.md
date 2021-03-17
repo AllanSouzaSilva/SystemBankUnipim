@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/made%20by-Allan%20Souza-431d7c">
   </a>
   <img src="https://img.shields.io/github/last-commit/AllanSouzaSilva/SystembankUnipim?color=F62E76">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/AllanSouzaSilva/SystembankUnipim?color=431d7c">
+  <img alt="GitHub license" src="https://github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/LICENSE">
 </p>
 
 <!-- index -->
@@ -132,7 +132,7 @@ Caso a página não abrir automaticamente, acesse: http://localhost:44356
 Além do que foi pedido, adicionei animações para deixar a aplicação mais agradável e fluida, e também uma página exclusiva para tratativa de erros.
 
 ## 📋 Licença
-[MIT](https://github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/LICENSE).
+<img alt="GitHub license" src="https://github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/LICENSE">
 
 
 ## 🚀 Entre em contato!
