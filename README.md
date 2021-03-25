@@ -13,8 +13,8 @@
   <a href="https://www.linkedin.com/in/AllanSouzaSilva/">
     <img src="https://img.shields.io/badge/made%20by-Allan%20Souza-431d7c">
   </a>
-  <img src="https://img.shields.io/github/last-commit/AllanSouzaSilva/SystembankUnipim?color=F62E76">
- <img alt="GitHub license" src="https://img.shields.io/github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/LICENSE">
+  
+  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/AllanSouzaSilva/SystemBankUnipim/blob/main/LICENSE) 
   
 </p>
 
