@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A84m/DCmr7ZkXXqRxDjJpIwP62OjZEo1MYQ3bTrvs7ug5spkEz65AG1TEYxMLcUgo3f3o8FYdIBkrre8VOQ27g==",
+  "dgSpecHash": "R69FT62AYir+HkgeMuyIXle8HytWWVBFaa1/u9IkisgVwTkgCF055z1EWS7Hi773ny+xvOgRJiMC2HnUuebTbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\Projetos-pessoais\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
+  "projectFilePath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AllanSouza\\.nuget\\packages\\microsoft.applicationinsights\\2.13.1\\microsoft.applicationinsights.2.13.1.nupkg.sha512",
     "C:\\Users\\AllanSouza\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

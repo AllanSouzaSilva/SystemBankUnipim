@@ -24,7 +24,7 @@ namespace Systembankunipim.Data
       
         [Display(Name ="Nome do Usuário")]
         public virtual TbCliente IdClienteNavigation { get; set; }
-        //Ralções entre as entidades
+        //Ralações entre as entidades
         public virtual ICollection<TbInvestimento> TbInvestimento { get; set; }
         public virtual ICollection<TbTransacao> TbTransacao { get; set; }
         

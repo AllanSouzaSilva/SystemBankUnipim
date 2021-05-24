@@ -164,6 +164,7 @@ namespace Systembankunipim.Controllers
         {
             var tbCliente = await _context.TbCliente.FindAsync(id);
             _context.TbCliente.Remove(tbCliente);
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\Projetos-pessoais\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj": {}
+    "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\Projetos-pessoais\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj": {
+    "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\Projetos-pessoais\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
+        "projectUniqueName": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
         "projectName": "Systembankunipim",
-        "projectPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\Projetos-pessoais\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
+        "projectPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\Systembankunipim.csproj",
         "packagesPath": "C:\\Users\\AllanSouza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\Projetos-pessoais\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\obj\\",
+        "outputPath": "C:\\Users\\AllanSouza\\OneDrive\\Documentos\\SystemBankUnipim\\Systembankunipim\\Systembankunipim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AllanSouza\\AppData\\Roaming\\NuGet\\NuGet.Config",
